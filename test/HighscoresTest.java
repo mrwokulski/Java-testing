@@ -33,7 +33,7 @@ class HighscoresTest {
 		int actual = hs.highScores.get("testWrite");
 		assertEquals(1, actual);
 	}
-	*/
+	
 	@Test
 	public void testHighscoreReadNoFile() {
 		assertThrows(IOException.class,
@@ -86,5 +86,5 @@ class HighscoresTest {
 		int actual = gra.hs.highScores.get(name);
 		//Assert
 		assertEquals(expected, actual);
-	}
+	}*/
 }

@@ -15,8 +15,8 @@ public class FakeMovesCollection implements IMoveService {
 	@Override
 	public List<Move> getAll() {
 		
-		if(moves.size() == 0) 
-			throw new IllegalArgumentException();
+		if(moves == null) 
+			throw new NullPointerException();
 		else {
 			returned = true;
 			return moves;
@@ -61,17 +61,6 @@ public class FakeMovesCollection implements IMoveService {
 		int index = moves.size();
 		return moves.get(index-1);
 	}
-	
-	public boolean getReturned () {
-		return returned;
-	}
-	
-	public boolean getInserted () {
-		return inserted;
-	}
-	
-	public boolean getDeleted () {
-		return deleted;
-	}
+
 
 }

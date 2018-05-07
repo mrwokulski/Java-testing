@@ -1,6 +1,6 @@
 # Testowanie aplikacji JAVA 2017-2018
 ## Projekt 2 (Maven, JUnit oraz atrapy) 
-
+[![BCH compliance](https://bettercodehub.com/edge/badge/mrwokulski/JavaTesting?branch=master)](https://bettercodehub.com/)
 -----------------------
 ### REGUŁY GRY
 
